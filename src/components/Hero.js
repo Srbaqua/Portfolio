@@ -15,16 +15,16 @@ const Hero = () => {
         <h1 className="hero-content display-4 fw-bold">Hi, I'm <span className="hero-content text-info">Saurabh Chaudhary</span></h1>
         <h3 className="typewriter mt-3">
           <Typewriter
-            words={["Web Developer", "React Enthusiast", "Open Source Lover"]}
+            words={["<Web Developer", "<React Enthusiast", "<DSA enthusiast", "<Problem Solver", "... and more!"]}  
             loop
             cursor
-            cursorStyle= "|"
+            cursorStyle= "/>"
             typeSpeed={70}
             deleteSpeed={50}
             delaySpeed={1200}
           />
         </h3>
-        <p className="lead mt-4">I build clean and dynamic web experiences.</p>
+        <p className=" mt-4"> <em>I build clean and dynamic web experiences.</em> </p>
 
  <ScrollLink
           to="contact"

@@ -3,7 +3,6 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   const year = new Date().getFullYear();
-
   return (
     <footer className="footer text-white py-5">
       <div className="container">
@@ -16,7 +15,6 @@ const Footer = () => {
               Always learning, always growing.
             </p>
           </div>
-
           {/* Column 2: Social Links */}
           <div className="col-md-4 mb-4">
             <h6 className="fw-bold mb-3">Follow Me</h6>
